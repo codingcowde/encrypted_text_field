@@ -1,6 +1,6 @@
 # encrypted_text_field Django App
 
-`encrypted_text_field` is a Django app providing a custom model field for storing sensitive information like passwords and API keys. The data is encrypted before being saved to the database and decrypted when accessed through Django's ORM in views or other business logic. The field uses Django's admin but ensures that values are not readable or displayed back in the UI, protecting sensitive information from exposure.
+`encrypted_text_field` is a Django app providing a custom model field for storing sensitive information like passwords and API keys. The data is encrypted before being saved to the database and decrypted when accessed through Django's ORM in views or other business logic. The field will be rendered in Django's admin but ensures that values are not readable or displayed back in the UI, protecting sensitive information from exposure.
 
 ## Features
 
