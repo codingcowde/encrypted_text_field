@@ -58,7 +58,7 @@ To use `EncryptedTextField` in your models:
 
 ```python
 from django.db import models
-from encrypted_text_field.fields import EncryptedTextField
+from encrypted_text_field.models import EncryptedTextField
 
 class MyModel(models.Model):
     secret_data = EncryptedTextField()
