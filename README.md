@@ -5,7 +5,7 @@
 ## Features
 
 - **EncryptedTextField Model Field**: Encrypt and decrypt data automatically.
-- **Security in Django Admin**: Use a password widget in the admin interface to edit fields without showing existing values.
+- **Security in Django Admin**: Displays a password widget in the admin interface to edit fields without showing existing values.
 - **Generate Keys via Management Command**: Includes a Django management command to generate new encryption keys.
 
 ## Requirements
