@@ -13,20 +13,27 @@
 - Django 3.2 or newer
 - Cryptography
 
-## Installation
+## Intallation using PIP
+
+```bash
+pip install encrypted-text-field
+```
+
+## Installation via GitHub
 
 Follow these steps to install and use the `encrypted_text_field` in your Django project:
 
 
 1. **Install the package**
 
-   Clone this repository into your Django project directory:
+   Clone this repository into an empty folder within your Django project directory:
 
    ```bash
    git clone https://github.com/codingcowde/encrypted_text_field.git
    ```
 
-2. **Add `encrypted_text_field` to your `INSTALLED_APPS`**
+## Setup
+1. **Add `encrypted_text_field` to your `INSTALLED_APPS`**
 
    ```python
    INSTALLED_APPS = [
@@ -36,7 +43,7 @@ Follow these steps to install and use the `encrypted_text_field` in your Django 
    ]
    ```
 
-3. **Configure the Encryption Key**
+2. **Configure the Encryption Key**
 
    In your settings module, set the encryption key:
 
@@ -46,7 +53,7 @@ Follow these steps to install and use the `encrypted_text_field` in your Django 
 
    > **Note**: This key should be generated securely and kept secret. Use environment variables to manage keys securely in production.
 
-4. **Run Migrations**
+3. **Run Migrations**
 
    ```bash
    python manage.py migrate

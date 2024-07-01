@@ -1,0 +1,6 @@
+.env
+build/
+dist/
+*.egg-info
+setup.py
+MANIFEST.in
